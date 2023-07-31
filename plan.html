@@ -29,7 +29,7 @@
             font-family: 'CrimsonText-Italic';
             color: #405d27;;
         }
-        img:not(.naglowek) {
+        img:not(.naglowek):not(.latawiec) {
           width: 75px;
           height: 75px;
         }
@@ -52,17 +52,21 @@
         
         .menu_serce {
           position: fixed;
-          top: 50%; /* Ustawienie pozycji w pionie na 50% okna przeglądarki */
+          top: 50%; /* odbijany kurwa mordo ten tego */
           left: 10%; /* Ustawienie pozycji w poziomie od prawej krawędzi okna */
           transform: translateY(-50%); /* Przesunięcie w pionie o połowę wysokości elementu */
+
         }
         .floating-image img {
-          width: 800px; /* Dopasuj szerokość do swojego obrazka */
-          height: auto;
+          
+          
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Dodaj cień */
         }
         img.naglowek {
           width: 100%;
+        }
+        img.latawiec {
+          width: 30%;
         }
 
 
@@ -78,7 +82,7 @@ background-size: 50%;
 ;">
 
   <a href="menu.html" class="menu_serce">
-    <img src="nawi.png">
+    <img src="nawi.png" class="latawiec">
   </a>
 
   <div style="
